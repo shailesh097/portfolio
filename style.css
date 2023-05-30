@@ -19,7 +19,8 @@ body {
 }
 
 .container {
-	padding: 10px 3%;
+	padding: 25px 3%;
+	
 }
 
 nav {
@@ -30,7 +31,7 @@ nav {
 }
 
 .logo {
-	width: 140px;
+	width: 70px;
 }
 
 nav ul li {
@@ -43,6 +44,7 @@ nav ul li a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
+	/* padding: 3px; */
 	position: relative;
 }
 
@@ -53,26 +55,29 @@ nav ul li a::after {
 	background: #ff004f;
 	position: absolute;
 	left: 0;
-	bottom: -6px;
-	transition: 0.4s;
+	bottom: -2px; 
+	transition: 0.2s;
 }
 nav ul li a:hover::after {
 	width: 100%;
 }
 
 .header-text {
-	margin-top: 20%;
-	font-size: 25px;
+	font-size: 23px;
+	margin-top: 30%;
+	margin-left: 3%;
 }
 
 .header-text h1 {
 	font-size: 60px;
 	margin-top: 20px;
+	user-select: ;
 }
 
-.header-text h1 span {
-	color: #ff004f;
+.header-text .person {
+	padding-left: 160px;
 }
+
 
 /* -------------ABOUT------------ */
 
