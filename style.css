@@ -20,7 +20,6 @@ body {
 
 .container {
 	padding: 25px 3%;
-	
 }
 
 nav {
@@ -58,6 +57,7 @@ nav ul li a::after {
 	bottom: -2px; 
 	transition: 0.2s;
 }
+
 nav ul li a:hover::after {
 	width: 100%;
 }
@@ -71,11 +71,6 @@ nav ul li a:hover::after {
 .header-text h1 {
 	font-size: 60px;
 	margin-top: 20px;
-	user-select: ;
-}
-
-.header-text .person {
-	padding-left: 160px;
 }
 
 
